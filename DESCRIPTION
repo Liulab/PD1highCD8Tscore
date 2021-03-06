@@ -1,0 +1,10 @@
+Package: PD1highCD8Tscore
+Type: Package
+Title: Quantify PD-1hiCD8+ T cells in tumor environment 
+Version: 1.0
+Date: 2021-03-05
+Author: Zhenyu Yang
+Maintainer: Yulan Deng <kndeajs@163.com>
+Description:  A transcriptional signature to quantify the fraction of PD-1hiCD8+ T cells in tumor environment. Patients with high signature scores are more likely to response to immune checkpoint inhibitors, and are associated with increased clinical outcome.
+License: GPL (>= 2)
+Imports: pROC, singscore, survival

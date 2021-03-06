@@ -1,0 +1,7 @@
+export("getSigScore","getIPS", "ICIResponse")
+importFrom(singscore,rankGenes)
+importFrom(singscore,simpleScore)
+importFrom(pROC,roc)
+importFrom(survival,Surv)
+importFrom(survival,coxph)
+importFrom("stats", "coef", "mad", "sd", "wilcox.test")
